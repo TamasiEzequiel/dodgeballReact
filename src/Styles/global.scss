@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 225px;
+    box-sizing: border-box;
+
+
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        font-weight: 200;
+        font-size: 3rem;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        text-align: center;
+        color: black;
+    }
+}
