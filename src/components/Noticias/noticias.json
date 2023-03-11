@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "titulo": "Aca va el titulo",
+        "contenido": "Esta es una noticia de ejemplo"
+    },
+    {   "id": 2,
+        "titulo": "Aca va el titulo",
+        "contenido": "Esta es una noticia de ejemplo"
+    },   
+    
+    {
+    "id": 3,
+    "titulo": "Aca va el titulo",
+    "contenido": "Esta es una noticia de ejemplo"  
+    }
+
+]

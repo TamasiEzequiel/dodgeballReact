@@ -1,0 +1,215 @@
+
+.somos{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.80rem;
+    border: 1px solid rgb(199, 210, 214);  
+    width: 90%;
+    height: 100%;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 20px;    
+    background: rgba(141, 182, 221, 0.644);
+/*    background: linear-gradient(90deg, rgba(246,221,232,1) 97%, rgba(224,190,190,1) 100%);*/
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 23px 35px 41px 26px rgba(247,255,217,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 23px 35px 41px 26px rgba(247,255,217,0);
+    
+    img{
+        display: flex;
+        align-content: center;
+        width: 100%;
+        height: 65%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.valores{
+
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+
+   
+
+    #val1{
+
+        display: inline-block;
+        border: 1px solid rgb(199, 210, 214);  
+        width: 250px;
+        height: 100%;
+        margin: 50px;
+        padding: 10px;
+        border-radius: 20px;    
+        background: rgba(240, 240, 240, 0.493);
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, 23px 35px 41px 26px rgba(247,255,217,0); 
+        box-shadow: 0px 10px 13px -7px #000000, 23px 35px 41px 26px rgba(247,255,217,0);
+    
+        img{
+            display: flex;
+            height: 125px;
+            width: 125px;
+            margin-left: 60px;
+            
+        }
+
+
+
+
+        p{
+            padding-top: 10px;
+            color: rgb(250, 6, 6);
+            text-align: center;
+            font-size: 1.75rem;
+            font-weight: 1000;
+            
+        }
+                   
+    }
+
+    #txt1{
+
+        p{
+            padding-top: 10px;
+            color: rgb(0, 0, 0);
+            text-align: justify;
+            font-size: 1.5rem;
+            font-weight: 600;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }   
+
+    }
+
+    #val2{
+        @extend #val1;
+       
+        p{
+            color: rgb(55, 250, 6);
+        }
+        
+    }   
+
+    #txt2{
+
+        p{
+            padding-top: 10px;
+            color: rgb(0, 0, 0);
+            text-align:left;
+            font-size: 1.5rem;
+            font-weight: 600;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }   
+
+    }
+    
+    #val3{
+        @extend #val1;
+       
+        p{
+            color: rgb(6, 10, 250);
+        }
+        
+    }   
+    
+    #txt3{
+
+        p{
+            padding-top: 10px;
+            color: rgb(0, 0, 0);
+            text-align: left;
+            font-size: 1.5rem;
+            font-weight: 600;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }   
+
+    }
+
+}
+
+
+
+
+.autorCont{
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+    border-radius: 25px;
+    justify-content: space-around;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 100px;
+
+
+}
+
+
+@mixin imgAutor ($displ,$ancho, $alto, $margen, $radio) {
+    display: $displ;
+    width: $ancho;
+    height: $alto;
+    margin: $margen;
+    border-radius: $radio;
+}
+
+    
+#presi img{
+    @include imgAutor(flex,200px,200px,20px,100px) 
+      
+}
+    
+#vice img{
+    @include imgAutor(flex,200px,200px,20px,100px)
+}
+
+
+.mapa{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 100px;
+    h4{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 2rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-flow: row wrap;
+    }
+
+   #submap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 100px;
+
+    
+   }
+
+   #txtCard{
+    display: flex;
+    border-radius: 50px;
+    width: 500px;
+    background-color: darkgray;
+    height: 300px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        display: flex;
+        height: 200px;
+        width: 600px;
+        font-size: 1.85rem;
+        margin: 25px;
+        text-justify:distribute;
+    }
+    
+   }
+
+    
+}
