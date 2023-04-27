@@ -1,46 +1,36 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { ItemDetail } from './itemDetail';
 import { db } from '../../firebase/config';
-import {doc, getDoc} from 'firebase/firestore';
+import { doc, getDoc } from 'firebase/firestore';
 
 
-export const ItemDetailContainer = () => {
+export const ItemDetailContainer = () => { //detalle producto
 
     const [loading, setLoading] = useState(false)
     const [item, setItem] = useState(null)
 
-    const mostrarDatos = (data) => {
-
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-
-                return resolve(data)
-
-            }, 1000)
-        })
-
-    }
 
     const { itemId } = useParams()
 
 
     useEffect(() => {
-        
+
         setLoading(true)
 
         //FIREBASE UTILIZANDO METODO DOC
         //Referencia
-        const docRef = doc(db, "productos", itemId ) //compuesto por base de datos, la coleccion q consulto,por ultimo el documento
+        const docRef = doc(db, "productos", itemId) //compuesto por base de datos, la coleccion q consulto,por ultimo el documento
         //peticion
         getDoc(docRef)
-        .then((doc) => {
 
-            setItem({id: doc.id, ...doc.data()})
-        })
-        .finally(() => {
-            setLoading(false)
-        })
+            .then((doc) => {
+
+                setItem({ id: doc.id, ...doc.data() })
+            })
+            .finally(() => {
+                setLoading(false)
+            })
 
     }, [])
 

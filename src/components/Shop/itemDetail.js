@@ -4,14 +4,13 @@ import { CartContext } from "./CartContext"
 import { ItemCount } from "./itemCount"
 
 
-export const ItemDetail = ({ id, precio, stock, nombre, img, categoria }) => {
-
+export const ItemDetail = ({ id, precio, stock, nombre, img, categoria }) => { // VISTA DEL DETALLE Y CONTROL DE ESTADO DE CANTIDAD
     const [cantidad, setCantidad] = useState(0)
 
 
-    const { cart, agregarAlCarrito, isInCart } = useContext(CartContext)
+    const { agregarAlCarrito, isInCart } = useContext(CartContext)
 
-    console.log(cart)
+
 
     /* creo estado para controlar la cantidad*/
     const handleAgregar = () => {
@@ -30,13 +29,15 @@ export const ItemDetail = ({ id, precio, stock, nombre, img, categoria }) => {
     return (
 
         <div className="cardList">
+
             <h3 id="cardTitle">{nombre}</h3>
+            <img src={img} alt={nombre} />
             <p>{"$" + precio}</p>
             <p>{"Stock: " + stock}</p>
 
             {
                 isInCart(id) ? <Link to="/cart" className="termComp">
-                    Terminar mi compra
+                    Finalizar mi compra
                 </Link>
                     :
                     <>
@@ -46,7 +47,7 @@ export const ItemDetail = ({ id, precio, stock, nombre, img, categoria }) => {
                             setCounter={setCantidad} // el counter se reemplaza con el setteo de la cantidad
                         />
 
-                        <button className="btnAgregar" onClick={handleAgregar}> Agregar al carrito</button>
+                        <button className="btnAgregar" onClick={handleAgregar} disabled= {cantidad === 0}> Agregar al carrito</button>
                     </>
             }
         </div>

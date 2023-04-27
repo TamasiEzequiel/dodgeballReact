@@ -1,6 +1,6 @@
 import { Item } from "./item"
 
-export const ItemList = ({ productos }) => {
+export const ItemList = ({ productos }) => {// VISTA DE LISTADO
 
     return (
 

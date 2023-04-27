@@ -1,3 +1,6 @@
+$navcolor:  rgb(0, 0, 0);
+
+
 html {
     font-size: 62.5%;
 
@@ -24,5 +27,12 @@ body {
         margin-bottom: 100px;
         text-align: center;
         color: black;
+    }
+}
+
+.logo{
+    img{
+        height: 100px;
+        width: 100%;
     }
 }

@@ -1,5 +1,5 @@
 [
-   { "id": 1, "precio": 3500,"stock": 5, "nombre": "Remera Seleccion 2019", "img": "./IMGS/IMG LOGO.png","categoria":"indumentaria" },
+   { "id": 1, "precio": 3500,"stock": 5, "nombre": "Remera Seleccion 2019", "img": "","categoria":"indumentaria" },
     { "id": 2, "precio": 2000,"stock": 5, "nombre": "Botella asociacion", "img": "./IMGS/botella.png", "categoria":"accesorios" },
     { "id": 3, "precio": 6000,"stock": 5, "nombre": "Bolso Asociacion Argentina de Dodgeball", "img": "./IMGS/IMG LOGO.png","categoria":"accesorios" },
     { "id": 4, "precio": 1250,"stock": 5, "nombre": "Taza Asociacion Argentina de Dodgeball", "img": "./IMGS/taza.png","categoria":"accesorios" },

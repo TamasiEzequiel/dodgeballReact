@@ -1,0 +1,52 @@
+
+.redes {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    margin: 0px;
+    
+
+    p {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-flow: row;
+    }
+
+
+    #tw {
+        display: flex;
+        padding: 0px;
+        height: 70px;
+        width: 50px;
+        
+    
+    }
+    
+    
+    #ig {
+        display: flex;
+        padding: 0px;
+        height: 70px;
+        width: 50px;
+        
+    }
+    
+    #yt {
+        display: flex;
+        padding: 0px;
+        height: 70px;
+        width: 50px;
+        
+    }
+    
+    #fb {
+        display: flex;
+        padding: 0px;
+        height: 70px;
+        width: 50px;
+        
+    }
+    
+
+}

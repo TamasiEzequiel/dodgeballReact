@@ -10,7 +10,7 @@ export const Noticias = () => {
         return new Promise((res, rej) => {
             setTimeout(() => {
                 return res(data)
-            }, 0)
+            }, 0.5)
         })
     }
 
@@ -29,10 +29,9 @@ export const Noticias = () => {
             {noti.map((news) => (
 
                 <div className="cardNewsB">
+                    <img src={news.img}/>
                     <h3 id="title-card"> {news.titulo}</h3>
                     <p>{news.contenido}</p>
-
-
 
                 </div>
             ))}

@@ -1,5 +1,5 @@
 
-export const ItemCount = ({ max, min = 0, counter, setCounter}) => {
+export const ItemCount = ({ max, min = 0, counter, setCounter}) => { // +  Y - PRODUCTOS
 
     
 
@@ -20,4 +20,3 @@ export const ItemCount = ({ max, min = 0, counter, setCounter}) => {
         </div>
     )
 }
-/**/

@@ -1,0 +1,31 @@
+.busqueda {
+    display: flex;
+    width: 150px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.542);
+    border-radius: 50px;
+}
+
+.busqText {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 50px;
+
+    img {
+        
+        width: 15px;
+        height: 15px;
+       
+    }
+
+    h3{
+        position:relative;
+        font-size: small;
+        margin: 0px;
+        margin-left: 10px;
+    }
+}
+

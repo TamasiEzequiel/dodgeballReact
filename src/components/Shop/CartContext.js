@@ -1,7 +1,7 @@
 import { createContext, useState } from "react"
 
 
-export const CartContext = createContext()
+export const CartContext = createContext() //CONTEXTO PARA RENDERIZAR CARRITO CON EN ICON EN CUALQUIER PESTAÑA
 
 export const CartProvider = ({children}) => { //recibe por props los children (toda la app)pa su renderizado y uso
 
