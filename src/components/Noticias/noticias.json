@@ -3,20 +3,20 @@
         "id": 1,
         "titulo": "Forma parte de Dodgeball Argentina",
         "contenido": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum rerum, aperiam obcaecati nisi provident laborum totam minima asperiores repellat corporis nemo fuga nulla, esse placeat et. Consequuntur, quae sint!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum rerum, aperiam obcaecati nisi provident laborum totam minima asperiores repellat corporis nemo fuga nulla, esse placeat et. Consequuntur, quae sint!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum rerum, aperiam obcaecati nisi provident laborum totam minima asperiores repellat corporis nemo fuga nulla, esse placeat et. Consequuntur, quae sint!",
-        "img": "../imgs/fondoDos.jpg"
+        "img": "imgs/fondoDos.jpg"
     },
 
     {   "id": 2,
         "titulo": "Se viene la Copa de los Andes",
         "contenido": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum rerum, aperiam obcaecati nisi provident laborum totam minima asperiores repellat corporis nemo fuga nulla, esse placeat et. Consequuntur, quae sint!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum rerum, aperiam obcaecati nisi provident laborum totam minima asperiores repellat corporis nemo fuga nulla, esse placeat et. Consequuntur, quae sint!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum rerum, aperiam obcaecati nisi provident laborum totam minima asperiores repellat corporis nemo fuga nulla, esse placeat et. Consequuntur, quae sint!",
-        "img": "../imgs/copadelosandes.jpeg"
+        "img": "imgs/copadelosandes.jpeg"
     },   
     
     {
     "id": 3,
     "titulo": "Buscamos Sponsor",
     "contenido": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum rerum, aperiam obcaecati nisi provident laborum totam minima asperiores repellat corporis nemo fuga nulla, esse placeat et. Consequuntur, quae sint!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum rerum, aperiam obcaecati nisi provident laborum totam minima asperiores repellat corporis nemo fuga nulla, esse placeat et. Consequuntur, quae sint!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum rerum, aperiam obcaecati nisi provident laborum totam minima asperiores repellat corporis nemo fuga nulla, esse placeat et. Consequuntur, quae sint!",
-    "img": "../imgs/didi.jpg"
+    "img": "imgs/didi.jpg"
     }
 
 ]

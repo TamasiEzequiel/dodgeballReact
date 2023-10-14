@@ -8,7 +8,7 @@ export const Logo = () => {
 
             <Link to='/'>
 
-                <img src="../imgs\IMG LOGOV2.png" />
+                <img src="imgs\IMG LOGOV2.png" />
             </Link>
 
         </div>
