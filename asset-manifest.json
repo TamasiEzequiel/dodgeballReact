@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dodgeballReact/static/css/main.3e615d83.css",
+    "main.js": "/dodgeballReact/static/js/main.91e8f1ba.js",
+    "static/js/787.28cb0dcd.chunk.js": "/dodgeballReact/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/dodgeballReact/index.html",
+    "main.3e615d83.css.map": "/dodgeballReact/static/css/main.3e615d83.css.map",
+    "main.91e8f1ba.js.map": "/dodgeballReact/static/js/main.91e8f1ba.js.map",
+    "787.28cb0dcd.chunk.js.map": "/dodgeballReact/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e615d83.css",
+    "static/js/main.91e8f1ba.js"
+  ]
+}
