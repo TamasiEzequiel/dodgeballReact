@@ -4,8 +4,8 @@
 
   "version": "0.1.0",
 
-  "private": true,
-  "homepage": "https://github.com/TamasiEzequiel/dodgeballReact",
+  "private": false,
+  "homepage": "http://github.com/TamasiEzequiel/dodgeballReact",
 
   "dependencies": {
 
