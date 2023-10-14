@@ -8,7 +8,7 @@ export const Navbar = () => {
     return (
 
         <div className="navBar">
-            <div className="imgBanner"><img src="../imgs/bannerFondo.png"></img></div>
+            <div className="imgBanner"><img src="imgs/bannerFondo.png"></img></div>
 
             <Logo />
             <nav>
