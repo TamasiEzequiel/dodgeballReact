@@ -1,5 +1,7 @@
 import { Item } from "./item"
 
+
+
 export const ItemList = ({ productos }) => {// VISTA DE LISTADO
 
     return (
@@ -9,7 +11,7 @@ export const ItemList = ({ productos }) => {// VISTA DE LISTADO
             {productos.map((prod) => <Item key={prod.id} {...prod} />)}
 
         </div>
-
+        
 
     )
 }

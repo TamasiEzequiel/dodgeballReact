@@ -15,9 +15,9 @@ export const Cart = () => { //VISTA CARRITO
                 cart.map((item) => (
                     <div className="cardCart" key={item.id}>
                         <img src={item.img}/>
-                        <h4 id="cardCartTittle">{item.nombre}</h4>
+                        <h4 id="cardCartTittle">{item.name}</h4>
                         <p>Cantidad: {item.cantidad}</p>
-                        <p>$ {item.cantidad * item.precio}</p>
+                        <p>$ {item.cantidad * item.price}</p>
 
                         <button className="btnDelete" onClick={() => eliminarItem(item.id)}> Borrar</button>
                     </div>

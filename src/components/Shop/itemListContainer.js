@@ -15,6 +15,7 @@ export const ItemListContainer = () => { //listado productos
     useEffect(() => {
         setLoading(true)
 
+        
        //FIREBASE
        const productosRef =  collection(db, 'productos') //Armo referencia
        // armo el query d busqueda, primero paso la coleccion, dsp en el where x q filtro (ctegoria), la comparacion y dsp con quien comparo)
